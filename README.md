@@ -16,6 +16,7 @@
 10. Commiting(Saving) any file can only be done if the file exist in Staging area and for Committing all the staged 
     files will use ==>  git commit -m <logical_message>
 11. To check all the logs of current branch commits ==> git log
+12. If want to skip the staging area and directly commit the changes ==> git commit -a -m <logical_message>
 
 
 
@@ -33,3 +34,4 @@ Git Commands ===>>>>
 8.  git rm --cached <file_name_with_extention>
 9.  git commit -m <logical_message>
 10. git log
+11. git commit -a -m <logical_message>
