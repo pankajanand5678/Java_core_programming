@@ -20,6 +20,7 @@
 13. To discard all the changes in working directory after previous commit ==> git restore <file>
 14. To check the difference between Staged and Unstaged files ==> git diff
 15. To check the difference between Staged and Committed files ==> git diff --staged
+16. To remove a file if committed bymistake ==> git rm --cached <file_name>
 
 
 
@@ -40,3 +41,4 @@ Git Commands ===>>>>
 12. git restore <file>
 13. git diff 
 14. git diff --staged
+15. git rm --cached <file_name>
