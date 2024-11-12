@@ -17,7 +17,9 @@
     files will use ==>  git commit -m <logical_message>
 11. To check all the logs of current branch commits ==> git log
 12. If want to skip the staging area and directly commit the changes ==> git commit -a -m <logical_message>
-
+13. To discard all the changes in working directory after previous commit ==> git restore <file>
+14. To check the difference between Staged and Unstaged files ==> git diff
+15. To check the difference between Staged and Committed files ==> git diff --staged
 
 
 
@@ -34,4 +36,7 @@ Git Commands ===>>>>
 8.  git rm --cached <file_name_with_extention>
 9.  git commit -m <logical_message>
 10. git log
-11. git commit -a -m <logical_message>
+11. git commit -a -m <logical_message> 
+12. git restore <file>
+13. git diff 
+14. git diff --staged
