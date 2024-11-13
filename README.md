@@ -44,6 +44,8 @@
 29. To see the branches existing in the project either remote or local ==> git branch / git branch --all
 30. To Create a new branch ==> git branch <new_branch_name>
 31. To Switch from branch1 to branch2 (be in branch1 and the hit) ==> git checkout branch2 / git switch branch2
+32. To move back to the just previous branch ==> git switch -
+33. To delete an existing branch if not required furthur ==> git branch -d <branch_name>
 
 
 
@@ -77,3 +79,5 @@ Git Commands ===>>>>
 26. git branch / git branch --all
 27. git branch <new_branch_name>
 28. git checkout branch2 / git switch branch2
+29. git switch -
+30. git branch -d <branch_name>
