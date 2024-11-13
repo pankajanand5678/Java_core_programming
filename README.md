@@ -43,9 +43,15 @@
 28. To get any project from github ==> git clone <project_url>
 29. To see the branches existing in the project either remote or local ==> git branch / git branch --all
 30. To Create a new branch ==> git branch <new_branch_name>
-31. To Switch from branch1 to branch2 (be in branch1 and the hit) ==> git checkout branch2 / git switch branch2
+31. To Switch from branch1 to branch2 (be in branch1) ==> git checkout branch2 / git switch branch2
 32. To move back to the just previous branch ==> git switch -
 33. To delete an existing branch if not required furthur ==> git branch -d <branch_name>
+34. To merge a branch branch2 into branch1 (be in branch1) ==> git merge branch2 but before merging make sure 
+    to have the latest code from remote repos
+35. While merging if found with conflicts then resolve them manualy and then commit and push the merged code.
+    If can not resolve the conflicts then to stop merging use ==> git merge --abort
+36. If you want to ignore some files and folders in the project to be tracked by git then mention their names
+    or patterns of them in .gitignore file. e.g - Main.class, *.class, *.log, Dir/, Static/Dir, etc
 
 
 
@@ -81,3 +87,5 @@ Git Commands ===>>>>
 28. git checkout branch2 / git switch branch2
 29. git switch -
 30. git branch -d <branch_name>
+31. (be in branch1) ==> git merge branch2
+32. git merge --abort
