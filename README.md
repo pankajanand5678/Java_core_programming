@@ -17,7 +17,7 @@
 9.  To unstage any file if required from Staging area ==> git rm --cached <file_name_with_extention>
 10. Commiting(Saving) any file can only be done if the file exist in Staging area and for Committing all the staged 
     files will use ==>  git commit -m <logical_message>
-11. To check all the logs of current branch commits ==> git log
+11. To check all the logs of current branch commits ==> git log / git log --pretty=oneline
 12. If want to skip the staging area and directly commit the changes ==> git commit -a -m <logical_message>
 13. To discard all the changes in working directory after previous commit ==> git restore <file>
 14. To check the difference between Staged and Unstaged files ==> git diff
@@ -35,6 +35,15 @@
 20. Now, Once remote and local repositories are connected and can communicate, we can perform required operations
 21. To push any changes to remote ==> git push origin <branch_name>
 22. To pull the latest Code from remote ==> git pull origin <branch_name>
+23. To Check "origin" reference repositories for fetch and push ==> git remote -v
+24. To Show tags/versions if any in the project ==> git tag
+25. To show the details of any particular tag/version ==> git show <tag_name>
+26. To add tag/version into the project ==> git tag <tag_name> -m <meassage> //e.g - git tag v1.0 -m "first release"
+27. To push tag/version to the remote repository ==> git push origin <tag_name>
+28. To get any project from github ==> git clone <project_url>
+29. To see the branches existing in the project either remote or local ==> git branch / git branch --all
+30. To Create a new branch ==> git branch <new_branch_name>
+31. To Switch from branch1 to branch2 (be in branch1 and the hit) ==> git checkout branch2 / git switch branch2
 
 
 
@@ -49,7 +58,7 @@ Git Commands ===>>>>
 7.  git add <file_name_with_extention> / git add .
 8.  git rm --cached <file_name_with_extention>
 9.  git commit -m <logical_message>
-10. git log
+10. git log / git log --pretty=oneline
 11. git commit -a -m <logical_message> 
 12. git restore <file>
 13. git diff 
@@ -59,3 +68,12 @@ Git Commands ===>>>>
 17. git remote add git@github:<user_name>/<remote_repository_name>
 18. git push origin main
 19. git pull origin main
+20. git remote -v
+21. git tag
+22. git tag <tag_name> -m <meassage> //e.g - git tag v1.0 -m "first release"
+23. git push origin <tag_name>
+24. git show <tag_name>
+25. git clone <project_url>
+26. git branch / git branch --all
+27. git branch <new_branch_name>
+28. git checkout branch2 / git switch branch2
