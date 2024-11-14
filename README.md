@@ -1,4 +1,4 @@
-**# Starting with Git and Github**
+# ** Starting with Git and Github**
 
 **Steps :-**
 
