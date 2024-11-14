@@ -1,3 +1,7 @@
+**# Starting with Git and Github**
+
+**Steps :-**
+
 1.  To Check if git is there in your m/c or not ==> git --version
 2.  If not present ==> download git using link("https://git-scm.com/downloads")
 3.  Install the downloaded "**.exe" file and restart the terminal
@@ -55,7 +59,7 @@
 
 
 
-Git Commands ===>>>>
+### **Git Commands ===>>>>**
 
 1.  git --version
 2.  git config --global user.name <username>
