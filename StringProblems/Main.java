@@ -16,7 +16,7 @@ public class Main{
         // String str2 = sc.nextLine();
         // sc.close();
 
-        String str1 = "abc";
+        String str1 = "sauravanand";
         // String str2 = "japank";
         int times = 2;
         // CountChars objCountChars = new CountChars();
